@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/persons/
+
+###
+
+PUT http://localhost:3001/api/persons/60266c05d0a65f21806048a8 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Anna",
+    "number": "2437"
+}
+
+###
+
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "asdf",
+    "number": "6666"
+}
+
+###
+
+DELETE http://localhost:3001/api/persons/60278f02a0519e322c128745
